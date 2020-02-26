@@ -29,7 +29,7 @@ function useQuery({ query, variables }) {
       setLoading(false)
     } catch (err) {
       setLoading(false)
-      setError([...error, err])
+      setError(error ? [...error, err] : [err])
     }
   }
 
@@ -46,7 +46,7 @@ function useQuery({ query, variables }) {
         setLoading(false)
       } catch (err) {
         setLoading(false)
-        setError([...error, err])
+        setError(error ? [...error, err] : [err])
       }
     }
 

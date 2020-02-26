@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className="App">
-      howdy {data.me.firstName}
+      howdy
       <br />
     </div >
   )
