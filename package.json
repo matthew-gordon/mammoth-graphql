@@ -1,0 +1,8 @@
+{
+  "name": "mammoth-graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:matthew-gordon/mammoth-graphql.git",
+  "author": "matthew-gordon <m.gordon5525@gmail.com>",
+  "license": "MIT"
+}
